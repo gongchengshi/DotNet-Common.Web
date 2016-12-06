@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Web", "Common.Web\Common.Web.csproj", "{3DB7E871-42BA-4A43-935B-707D552E0AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common.Web.Tests", "Common.Web.Tests\Common.Web.Tests.csproj", "{BBE75FA5-EE21-40D7-AA14-A986756AE1B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "..\DotNet-Common\Common\Common.csproj", "{DD93FCFF-3B20-4877-B00C-97905F718CDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug MimeoCmd|Any CPU = Debug MimeoCmd|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+		Test|Any CPU = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DB7E871-42BA-4A43-935B-707D552E0AAE}.Debug MimeoCmd|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB7E871-42BA-4A43-935B-707D552E0AAE}.Debug MimeoCmd|Any CPU.Build.0 = Debug|Any CPU
+		{3DB7E871-42BA-4A43-935B-707D552E0AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DB7E871-42BA-4A43-935B-707D552E0AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DB7E871-42BA-4A43-935B-707D552E0AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DB7E871-42BA-4A43-935B-707D552E0AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DB7E871-42BA-4A43-935B-707D552E0AAE}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{3DB7E871-42BA-4A43-935B-707D552E0AAE}.Test|Any CPU.Build.0 = Test|Any CPU
+		{BBE75FA5-EE21-40D7-AA14-A986756AE1B2}.Debug MimeoCmd|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE75FA5-EE21-40D7-AA14-A986756AE1B2}.Debug MimeoCmd|Any CPU.Build.0 = Debug|Any CPU
+		{BBE75FA5-EE21-40D7-AA14-A986756AE1B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE75FA5-EE21-40D7-AA14-A986756AE1B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE75FA5-EE21-40D7-AA14-A986756AE1B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE75FA5-EE21-40D7-AA14-A986756AE1B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE75FA5-EE21-40D7-AA14-A986756AE1B2}.Test|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE75FA5-EE21-40D7-AA14-A986756AE1B2}.Test|Any CPU.Build.0 = Release|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Debug MimeoCmd|Any CPU.ActiveCfg = Debug MimeoCmd|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Debug MimeoCmd|Any CPU.Build.0 = Debug MimeoCmd|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Test|Any CPU.ActiveCfg = Test|Any CPU
+		{DD93FCFF-3B20-4877-B00C-97905F718CDF}.Test|Any CPU.Build.0 = Test|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
